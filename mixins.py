@@ -8,7 +8,7 @@ try:
 except ImportError:
     mixin_base = object
 
-__all__ = ('FilterFormMixin',)
+__all__ = ('FilterFormMixin','PreviousRedirectMixin',)
 
 
 class FilterFormMixin(ContextMixin):
